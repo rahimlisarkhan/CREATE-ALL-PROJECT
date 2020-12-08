@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; //1rem = 10px |  10px/16px = 62.5%
+    scroll-behavior: smooth; 
+}
+
+body{
+font-family: $fontPoppins;
+background-color: #ededff;
+}
+
+/*Scroll*/
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0/ 0 5px grey;
+    border-radius: 15px;
+    transition: all .3s;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(136, 158, 255);
+    border-radius: 10px;
+    transition: all .3s;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(120, 144, 248);
+  }
+  

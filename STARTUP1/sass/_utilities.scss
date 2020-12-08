@@ -1,0 +1,335 @@
+
+.img-carousel{
+    height: 95rem;
+
+    @include resScreen(tablet){
+        height: 50rem;
+    }
+    
+    @include resScreen(phone) {
+        height: 45rem;;
+    }
+}
+
+.margin_img{
+    margin-top: 4rem;
+}
+
+.chart-content{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    background-color: green;
+    align-items: center;
+
+    @include resScreen(tablet){
+        width: 100%;
+        align-items: center;
+    } 
+    
+}
+.content--btn-first{
+    margin: 0 auto;
+    padding: 1vw 3vw;
+    border-radius: 99px;
+    font-size: 1.5vw;
+    font-weight: 600;
+    color:#000f3f;
+    background-color: rgb(217, 222, 255);
+    transition: all .3s;
+    cursor: pointer;
+    font-family: $fontPoppins;
+    border: none;
+    
+    @include resScreen(phone) {
+        display: none;
+    }
+    &:hover {
+        transform: translateY(-0.3rem);
+        box-shadow: 0  1rem 2rem rgba(white,0.2);
+        &::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+    }
+
+    &:active,
+    &:focus {
+        outline: none;
+        transform: translateY(-.1rem);
+        box-shadow: 0  .5rem 1rem rgba(white,0.2);
+    }
+}
+
+
+/////@at-root
+
+
+//CLASSES ONLY LITTLE PROPERTY
+.active-item {
+    transition: all .3s;
+    color: rgb(255, 255, 255) !important;
+}
+
+.active-item:hover {
+    text-decoration: underline;
+}
+
+.card-container {
+    transition: all .3s;
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+        box-shadow: 0 1.5rem 4rem rgba($color: black, $alpha: .16);
+    }
+}
+.card-container-galery {
+    transition: all .4s;
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+        box-shadow: 0 1.5rem 4rem rgba($color: black, $alpha: .16);
+        border: 1rem solid  rgba($color:$color-text-blue-2, $alpha: .5);
+    }
+}
+
+.text-black{
+    text-align: left;
+    a{
+        text-decoration: none;
+        font-size: 2rem;
+        font-family: $fontLato;
+        font-weight: 500;
+        line-height: 1;
+        color: $color-text-black-3;
+        transition: all .3s;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+   
+
+
+//MODIFIER
+
+
+.container__desc__card_about {
+    @include flex-col;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: none;
+    margin-bottom: 4rem;
+
+    @include resScreen(tablet){
+        margin:4rem 5rem ;
+    };
+
+    @include resScreen(phone){
+        margin: 0;
+    };
+
+}
+
+.container__desc__card_desc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    line-height: 1.7;
+    font-size: 2.5rem;
+    margin-bottom: .1rem;
+
+    @include resScreen(tablet){
+        font-size: 2rem ;
+       };
+    @include resScreen(phone){
+        font-size: 1.8rem ;
+    };
+}
+
+
+
+//carousel content
+.container_bg-color {
+    width: 100%;
+    padding: 9rem 1rem;
+    height: 70rem;
+    background-image: linear-gradient(to left,$color-blue-1,$color-blue-4); 
+    @include resScreen(phone){
+        display: none;
+    };
+ 
+}
+
+.container__title_color {
+    width: 70%;
+    h1,
+    p {
+        color: white;
+        text-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.548);
+    }
+}
+
+.container__desc_center{
+    @include flex-center;
+    align-items: center;
+    width: 15%;
+    padding: 0;
+    border: 5px solid black;
+}
+.height-card{
+    @include resScreen(phone) {
+        width: 95% !important;
+        height: 40rem !important;
+       
+     }
+}
+
+.btn_icon{
+    color: white;
+    transition: all .3s;
+    font-size:1.6rem;
+}
+
+.container_center{
+    margin:  0 auto;
+}
+
+.btn_center{
+    margin:  0 auto !important;
+}
+
+
+
+.bg-light{
+    height: 30rem !important;
+}
+
+.navbar-toggler-icon{
+    color: wheat !important;
+}
+
+.header__nav{
+padding:0;
+
+}
+
+
+//Chat
+/*online chat*/
+
+.online-chat{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 13rem;
+    right: 25px;
+    border-radius: 100px 100px 100px 0;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: .3s all;
+    box-shadow: 2px 2px 5px 3px   rgba(0, 0, 0, 0.493);
+    background-color: rgb(240, 240, 240);
+    z-index: 99999999999999;
+}
+.fa-facebook-messenger{
+    font-size: 40px;
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: .3s all;
+    color: #4f2da0;
+}
+.online-chat:hover{
+    width: 82px;
+    height: 82px;
+    background-image: linear-gradient(to right,#4f2da0,#8573ad);
+    transform: rotate(-40deg);
+}
+
+.online-chat:hover .fa-facebook-messenger{
+    font-size: 55px;
+    color: whitesmoke;
+    transform: rotate(19deg);
+}
+
+
+.collapseform{
+    position: fixed;
+    width: 400px;
+    bottom: 22rem;
+    right:2.5rem;
+    z-index: 99999999999;
+
+    @include resScreen(tablet){
+        bottom: 3rem;
+        right:11rem;
+        z-index: 999999999;
+    }
+
+    @include resScreen(phone){
+        right:1rem;
+        z-index: 999999999;
+    }
+}
+
+.collapseformCard{
+    color: rgb(10, 29, 83);
+    box-shadow: 2px 2px 5px 3px   rgba(27, 6, 66, 0.493);
+    padding: 5rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 99999999999999;
+
+    h1{
+        font-size: 4rem;
+      text-shadow: 0 .1rem .1rem rgba(7, 10, 54, 0.424);
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    p{
+        font-size: 2rem;
+        margin: 3rem 0;
+        line-height: 1.1;
+        text-shadow: 0 .1rem .1rem rgba(7, 10, 54, 0.424);
+    }
+
+    a{
+        width: 15rem;
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 1rem;
+        color: $color-blue-4;
+        border: .1rem solid rgb(8, 8, 88);
+        transition: all .3s;
+        
+        &:hover{
+            background-color: $color-blue-4;
+            color: white;
+        }
+
+    }
+}
+
+
+.btn-arrow{
+    font-size: 5rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 30px;
+    color: rgb(255, 187, 0);
+    text-shadow:0 .1rem .7rem rgba(0, 0, 0, 0.493);
+    z-index: 5;
+    transition: all .3s;
+}
+
+
