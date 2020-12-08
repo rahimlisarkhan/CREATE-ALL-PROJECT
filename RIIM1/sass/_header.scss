@@ -32,11 +32,12 @@
         position: absolute;
         top: 1rem;
         left: 1rem;
-       
+        padding-left:2rem ;
     }
     &__logo {
         filter:  brightness(0) invert(1);
-        height: 12rem;
+        height: 5rem;
+       
         transform: scale(1);
         &:hover{
             transform: scale(1.1);
