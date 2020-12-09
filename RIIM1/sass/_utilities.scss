@@ -43,7 +43,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center; 
-  height: 33rem !important;
+  height: 36rem !important;
 }
 
 .d-flex-row{
@@ -82,4 +82,36 @@
 
 .margin-center{
   margin:  0 auto;
+}
+
+
+
+
+.d-flex-col-1{
+  display: flex;
+  width: 80% !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  padding: 2rem !important;
+  background-color: rgb(180, 180, 180)(255, 255, 255) !important;
+  height: 25rem !important;
+  transform: skewX(12deg) !important;
+ 
+
+  img{
+    width:100% ;
+    height: 37rem;
+    transform: skewX(-12deg) !important;
+  
+  }
+}
+
+.img-height{
+  width:90% !important ;
+  height: 22rem !important;
+
+  @include respond(phone){
+    height: 13rem !important;
+  }
 }

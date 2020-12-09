@@ -5,7 +5,7 @@
         rgba($color-primary-light, 0.8),
         rgba($color-primary-dark, 0.8));
     background-size: cover;
-    background-position: top; /* Makes sure that top of the image will always stay at the top of the div. Center will keep the center of the image always in teh centre. Top and bottom will be cup off with resize. */
+    background-position: top; 
     position:relative;
 
     @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
@@ -19,8 +19,8 @@
             only screen and (min-width: 125em) {
         background-image: linear-gradient(
             to right bottom,
-            rgba($color-secondary-light, 0.8),
-            rgba($color-secondary-dark, 0.8)), 
+            rgba($color-primary-light, 0.8),
+            rgba($color-primary-dark, 0.8)), 
              url(../img/hero.jpg);
     }
     @include respond(phone) { 
@@ -32,11 +32,12 @@
         position: absolute;
         top: 1rem;
         left: 1rem;
+        padding-top:2rem ;
         padding-left:2rem ;
     }
     &__logo {
-        filter:  brightness(0) invert(1);
-        height: 5rem;
+        // filter:  brightness(0) invert(1);
+        height: 6rem;
        
         transform: scale(1);
         &:hover{

@@ -68,6 +68,10 @@
     }
     &__item {
         margin: .7rem;
+
+        @include respond(tab-port){
+            margin: .2rem; 
+        }
     }
     &__link {
 
@@ -90,6 +94,9 @@
                 display: inline-block;
             }
 
+            @include respond(tab-port){
+                font-size: 2.7rem;
+            }
           
 
         }
