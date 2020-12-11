@@ -12,14 +12,16 @@ body {
     text-transform: uppercase;
 
     backface-visibility: hidden;
-    margin-bottom: 6rem;
+    margin-top:10rem ;
+    margin-bottom: 4rem;
    
 
     &--main {
         display: block;
-        font-size: 8rem;
+        font-size: 4vh;
         font-weight: 600;
         letter-spacing: 1.5rem;
+        margin-bottom:2rem ;
         text-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.418);
 
         animation-name: moveInLeft;
@@ -36,23 +38,23 @@ body {
         @include respond(phone) { 
             letter-spacing: 1rem;
             font-family: 5rem;
-            font-size: 5rem;
+            font-size: 2.5rem;
         }
         /* animation-delay: 3s; 
         animation-iteration-count: 3; */
     }
     &--sub {
         display: block;
-        font-size: 3rem;
+        font-size: 2rem;
         text-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.418);
-        font-weight: 700;
-        letter-spacing: 1.75rem;
+        font-weight: bold;
+        letter-spacing: .1rem;
     
         animation: moveInRight 1s ease-out;
 
         @include respond(phone) { 
-            letter-spacing: .5rem;
-            font-size: 2rem;
+            letter-spacing: .1rem;
+            font-size: 1rem !important;
         }
 
         @include respond(tab-port) { 
@@ -92,5 +94,4 @@ body {
 }
 .paragraph {
     font-size: $default-font-size;
-
 }

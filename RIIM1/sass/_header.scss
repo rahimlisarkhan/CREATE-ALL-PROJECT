@@ -2,15 +2,14 @@
     height: 85vh;
     background-image: linear-gradient(
         to right bottom,
-        rgba($color-primary-light, 0.8),
-        rgba($color-primary-dark, 0.8));
+        rgba(rgb(130, 44, 179), 1),
+        rgba(rgb(90, 23, 121), 1));
     background-size: cover;
     background-position: top; 
     position:relative;
 
     @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
-        -webkit-clip-path: polygon( 0 0, 100% 0, 100% 75vh, 0 100%);
-        clip-path: polygon( 0 0, 100% 0, 100% 75vh, 0 100%); /* Make cool cut of header image */
+        clip-path: polygon(5% 88%, 4% 85%, .5% 0, 100% 0, 100% 99%, 22% 96%, 16% 95%, 13% 94%, 10% 93%, 6% 91%);
         height: 95vh;
     }
 
@@ -19,13 +18,11 @@
             only screen and (min-width: 125em) {
         background-image: linear-gradient(
             to right bottom,
-            rgba($color-primary-light, 0.8),
-            rgba($color-primary-dark, 0.8)), 
-             url(../img/hero.jpg);
+            rgba(rgb(179, 44, 44), 1),
+            rgba(rgb(121, 23, 23), 1));
     }
     @include respond(phone) { 
-        -webkit-clip-path: polygon( 0 0, 100% 0, 100% 85vh, 0 100%);
-        clip-path: polygon( 0 0, 100% 0, 100% 85vh, 0 100%); 
+        clip-path: polygon(5% 88%, 4% 85%, .5% 0, 100% 0, 100% 99%, 22% 96%, 16% 95%, 13% 94%, 10% 93%, 6% 91%);
     }
 
     &__logo-box {
@@ -37,9 +34,14 @@
     }
     &__logo {
         // filter:  brightness(0) invert(1);
-        height: 6rem;
-       
+        height:14rem;
+       margin-right:1rem;
         transform: scale(1);
+
+        @include respond (phone){
+            height:5rem;
+        }
+
         &:hover{
             transform: scale(1.1);
         }

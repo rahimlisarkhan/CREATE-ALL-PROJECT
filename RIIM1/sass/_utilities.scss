@@ -62,7 +62,7 @@
 }
 
 .bg-video-opacity{
-  opacity: .7 !important;
+  opacity: .3 !important;
 }
 
 .btn-arrow{
@@ -109,9 +109,24 @@
 
 .img-height{
   width:90% !important ;
-  height: 22rem !important;
+  height: 18rem !important;
 
   @include respond(phone){
     height: 13rem !important;
   }
+}
+
+b{
+  font-weight: bold;
+}
+
+.main-header{
+  display: flex;
+  align-items: center;
+  width: 170vh;
+}
+
+.avropa{
+  width: 17%;
+  height: 18rem !important;
 }
