@@ -9,7 +9,7 @@
     position:relative;
 
     @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
-        clip-path: polygon(5% 88%, 4% 85%, .5% 0, 100% 0, 100% 99%, 22% 96%, 16% 95%, 13% 94%, 10% 93%, 6% 91%);
+        clip-path: polygon(100% 0, 100% 100%, 82% 100%, 4% 100%, 0 0);
         height: 95vh;
     }
 
@@ -18,11 +18,14 @@
             only screen and (min-width: 125em) {
         background-image: linear-gradient(
             to right bottom,
-            rgba(rgb(179, 44, 44), 1),
-            rgba(rgb(121, 23, 23), 1));
+            rgba(rgb(130, 44, 179), 1),
+        rgba(rgb(90, 23, 121), 1));
+    }
+    @include respond(tab-port) { 
+       height: 70rem;
     }
     @include respond(phone) { 
-        clip-path: polygon(5% 88%, 4% 85%, .5% 0, 100% 0, 100% 99%, 22% 96%, 16% 95%, 13% 94%, 10% 93%, 6% 91%);
+        clip-path: polygon(100% 0, 100% 100%, 82% 100%, 4% 100%, 0 0);
     }
 
     &__logo-box {
@@ -32,14 +35,41 @@
         padding-top:2rem ;
         padding-left:2rem ;
     }
+
+    &__logo-box-1 {
+        display: flex;
+        position: absolute;
+        justify-content: space-evenly;
+       bottom: 1rem;
+        right: 1rem;
+        margin-top:2rem ;
+        padding-top:2rem ;
+        padding-left:2rem ;
+
+
+        
+    }
+
     &__logo {
         // filter:  brightness(0) invert(1);
+        width: 18rem;
         height:14rem;
-       margin-right:1rem;
-        transform: scale(1);
+        margin-right:10rem ;
+
+        @include respond (tab-land){
+            height:15vh;
+        }
+
+        @include respond (tab-port){
+            width: 12rem;
+            height:10rem;
+            margin-right:7rem ;
+        }
 
         @include respond (phone){
-            height:5rem;
+            width: 9rem;
+            height:8.5rem;
+            margin-right:.6rem ;
         }
 
         &:hover{
@@ -64,3 +94,4 @@
     //     width: 70%;
     //     margin:  0 auto;
     // }
+

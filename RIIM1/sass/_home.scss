@@ -14,7 +14,7 @@
         rgba($color-secondary-light, 0.8),
         rgba($color-secondary-dark, 0.8)), 
          url(../img/nat-7.jpg);
-         clip-path: polygon(86% 6%, 88% 9%, 90% 14%, 99% 100%, 0 100%, 0 1%, 82% 4%);
+         clip-path: polygon(94% 3%, 100% 100%, 82% 100%, 0 100%, 0 0);
         
     background-size: cover;
     // transform: skewY(-7deg);
@@ -44,7 +44,7 @@
         to right bottom,
         rgba($color-primary-light, 0.8),
         rgba($color-primary-dark, 0.8));
-        clip-path: polygon(5% 88%, 4% 85%, .5% 0, 100% 0, 100% 99%, 22% 96%, 16% 95%, 13% 94%, 10% 93%, 6% 91%);
+        clip-path: polygon(100% 0, 100% 100%, 82% 100%, 4% 100%, 0 0);
     
     @include respond(tab-port) {
         padding: 10rem 0;
@@ -75,7 +75,7 @@
         rgba($color-secondary-light, 0.8),
         rgba($color-secondary-dark, 0.8)), 
          url(../img/nat-7.jpg);
-         clip-path: polygon(86% 6%, 88% 9%, 90% 14%, 99% 100%, 0 100%, 0 1%, 82% 4%);
+         clip-path: polygon(94% 3%, 100% 100%, 82% 100%, 0 100%, 0 0);
          background-size: cover;
 }
 .section-book {

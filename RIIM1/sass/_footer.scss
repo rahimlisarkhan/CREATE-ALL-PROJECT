@@ -2,14 +2,14 @@
     padding: 10rem 0;
     width: 100%;
     background-color: rgb(100, 4, 155);
-    clip-path: polygon(86% 6%, 88% 9%, 90% 14%, 99% 100%, 0 100%, 0 1%, 82% 4%);
+    clip-path: polygon(94% 3%, 100% 100%, 82% 100%, 0 100%, 0 0);
     position: relative;
     font-size: 1.4rem;
     color: $color-grey-light-1;
     
     @include respond(phone){
-        background-color: rgb(155, 4, 4);
-        clip-path: polygon(86% 6%, 88% 9%, 90% 14%, 99% 100%, 0 100%, 0 1%, 82% 4%);
+        background-color: rgb(100, 4, 155);
+        clip-path: polygon(94% 3%, 100% 100%, 82% 100%, 0 100%, 0 0);
     }
     @include respond(tab-port) {
         padding: 8rem 0;
@@ -46,13 +46,13 @@
         height: auto;
 
         .other{
-            width: 34rem !important;
+            width: 31rem !important;
             height: 11rem;
             margin-right:2.2rem ;
 
             @include respond(phone) {
-                width: 30rem !important;
-                height: 8rem;
+                width: 17rem !important;
+                height: 10rem;
                 margin-right:2.2rem ;
             }
         }
@@ -64,8 +64,8 @@
 
 
             @include respond(phone) {
-                width:6rem !important;
-                height: 4rem;
+                width:5rem !important;
+                height: 3rem;
              }
         }
        
