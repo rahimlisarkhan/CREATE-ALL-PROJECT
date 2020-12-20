@@ -1,0 +1,256 @@
+.header{
+    background-image:linear-gradient($colorPurple,$colorBlue) ;
+    height: 95rem;
+    clip-path: polygon(0 0, 95% 0, 100% 100%, 5% 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+   
+
+    &__logo{
+        display: flex;
+        padding: 4rem;
+        justify-content: flex-start;
+        align-items: center;
+        height: 10rem;
+        width: 100%;
+
+       
+
+        img{
+            width: 20rem;
+            height: auto;
+            &:hover{
+                transform: scale(1.1);
+            }
+
+            @include respond(tab-port){
+                width: 12rem;
+            }
+
+            @include respond(phone){
+                width: 9rem;
+            }
+        }
+    }
+
+    &__clock{
+        width: 42%;
+        height: 22rem;
+        margin-top:5rem ;
+        display: flex;
+        border: .1rem solid white;
+        justify-content: center;
+
+        @include respond(tab-land){
+            margin-top:2rem ;
+        }
+
+        @include respond(tab-port){
+            width: 60%;
+            height: 17rem;
+        }
+
+        @include respond(phone){
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 60%;
+            border:none;
+            height: 40rem;
+        }
+        .hours,
+        .minute{
+            width: 30%;
+            display: flex;
+            padding: 4rem;
+            color: $colorWhite;
+            justify-content: center;
+            align-items: center;
+            font-size: 17vh;
+            font-weight: 300;
+            height: 100%;
+
+
+            @include respond(tab-land){
+                width: 25%;
+                font-size: 12vh;
+            }
+
+            @include respond(tab-port){
+                width: 15%;
+                font-size: 8vh;
+            }
+
+            @include respond(phone){
+                width: 15%;
+                font-size: 7vh;
+            }
+           
+        }
+        
+        .dote{
+            width: 1%;
+            height: 100%;
+            margin:0 1rem ;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            @include respond(phone){
+                display: none;
+            }
+            span{
+                width: 100%;
+                margin: 1rem 0;
+                height: 1.1rem;
+                animation: colorFull 6s infinite;
+             
+                background-color: $colorWhite;
+            }
+        }
+     
+    }
+
+    &__desc{
+        width: 100%;
+        height: 15rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h3{
+            color: $colorWhite;
+            text-align: center;
+            font-weight: 300;
+            letter-spacing: .3rem;
+            font-size: 6vh;
+            @include respond(tab-land){
+                font-size: 6vh;
+            }
+    
+            @include respond(phone){
+                margin-top:2rem ;
+                line-height: 1.2;
+                font-size: 3vh !important;
+            }
+        }
+
+       
+    }
+
+    &__partners{
+        width: 100%;
+        display: flex;
+        padding: 4rem;
+        height: 30rem;
+        justify-content: space-evenly;
+        align-items: center;
+        @include respond(phone){
+
+        }
+
+        @include respond(tab-land){
+            width: 100%;
+        }
+
+        @include respond(phone){
+           flex-direction: column;
+        }
+
+        &__logo{
+            @include respond(phone){
+                margin: 1rem 0;
+
+            }
+        }
+
+        img{
+            width: 18rem ;
+            height: auto;
+            filter:  brightness(0) invert(1);
+            &:hover{
+                transform: scale(1.1);
+            }
+
+            @include respond(tab-land){
+                width: 12rem !important ;
+            }
+
+            @include respond(tab-port){
+                width: 8rem !important ;
+            }
+
+            @include respond(phone){
+                width: 8rem !important ;
+
+            }
+
+            
+        }
+
+        .logo-1{
+            width: 30rem !important;
+            height: auto;
+            filter:  invert(1);
+
+            @include respond(tab-land){
+                width: 20rem !important ;
+            }
+
+            @include respond(tab-port){
+                width: 15rem !important;
+            }
+
+            @include respond(phone){
+                width: 10rem !important ;
+
+            }
+            
+
+        }
+        .logo-2{
+            width: 30rem !important;
+            height: auto;
+            filter:  none;
+
+            @include respond(tab-land){
+                width: 20rem !important ;
+            }
+
+            @include respond(tab-port){
+                width: 15rem !important;
+            }
+
+            @include respond(phone){
+                width: 10rem !important ;
+
+            }
+        }
+    
+    }
+}
+
+
+
+//Animation dote
+@keyframes colorFull {
+    0% {
+      background-color: $colorWhite;
+    }
+    25% {
+        background-color: rgb(219, 171, 108);
+      }
+    50% {
+        background-color: $colorWhite;
+    }
+    75% {
+        background-color: rgb(219, 171, 108);
+      }
+    100% {
+        background-color: $colorWhite;
+    }
+  }
