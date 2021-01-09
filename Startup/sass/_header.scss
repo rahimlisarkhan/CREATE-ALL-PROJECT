@@ -1,0 +1,169 @@
+.header{
+    width: 100%;
+    position: relative;
+    height: 92rem;
+    display: flex;
+    @include respond(phone){
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem 0;
+        height: auto;
+
+     }
+
+   
+
+    &__title{
+        display: flex;
+        width:70%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        @include respond(phone){
+            width: 75%;
+         }
+         @include respond(tab-port){
+            width: 100%;
+            position: absolute;
+            top: 25%;
+         }
+       
+
+        
+         &__logo{
+            width: 55%;
+            @include respond(phone){
+                width: 100%;
+             }
+             @include respond(tab-land){
+                width: 85%;
+             }
+            img{
+                width: 6.5rem;
+                @include respond(phone){
+                    width: 4rem;
+                 }
+            }
+
+          
+        }
+
+        &__desc{
+            width: 55%;
+            margin:5rem 0 ;
+            @include respond(phone){
+                width: 100%;
+             }
+
+             @include respond(tab-land){
+                width: 85%;
+             }
+             @include respond(tab-port){
+                width: 85%;
+             }
+            h1{
+                line-height: 1.5;
+                color: #1a1a1a;
+                font-size: 4.4rem;
+                font-weight: 700;
+                letter-spacing: .2rem;
+                margin-bottom:3rem ;
+
+                @include respond(phone){
+                    font-size: 3.5rem;
+                    letter-spacing: .4rem;
+                 }
+
+                 @include respond(tab-land){
+                    font-size: 3.5rem;
+                 }
+                 
+            }
+
+            p{
+                color: #716f6f;
+                width: 100%;
+                font-size: 2.3rem;
+                word-spacing: .2rem;
+                line-height: 1.5;
+
+                @include respond(phone){
+                    font-size: 1.8rem;
+                 }
+
+                 @include respond(tab-land){
+                    font-size: 2rem;
+                 }
+                span{
+                    color: orangered;
+                    font-weight: 700;
+                }
+
+                b{
+                    font-weight: 700
+                }
+            }
+        }
+
+        &__btn{
+            width: 55%;
+            @include respond(phone){
+                width: 100%;
+                display: flex;
+                justify-content: center;
+             }
+             @include respond(tab-land){
+                width: 85%;
+             }
+
+             @include respond(tab-port){
+                width: 100%;
+                display: flex;
+                justify-content: center;
+             }
+            a{
+                box-shadow: 0 .1rem 2rem rgba(0, 0, 0, 0.212);
+                text-decoration: none;
+                background-color: #fb651e;
+                border-radius: 6px;
+                color: #fff;
+                font-size: 2rem;
+                padding: 1.5rem 5rem;
+
+                @include respond(phone){
+                    padding: 1.5rem 3rem;
+                 }
+
+                
+                &:hover{
+                    background-color: #da4804;
+                }
+            }
+        }
+    }
+
+    &__map{
+        display: flex;
+        justify-content: flex-end;
+        width:35%;
+        @include respond(tab-port){
+            width:95%;
+         }
+        img{
+            width: 80rem;
+            height: 55rem;
+
+            @include respond(tab-port){
+                width: 60rem;
+                height: 35rem;
+             }
+        }
+
+        @include respond(phone){
+           display: none;
+        }
+      
+        
+    }
+}
