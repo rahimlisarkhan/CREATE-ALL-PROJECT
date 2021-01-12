@@ -1,8 +1,9 @@
 .header{
     width: 100%;
     position: relative;
-    height: 92rem;
+    height: auto;
     display: flex;
+    background-position: center;
     @include respond(phone){
         align-items: center;
         flex-direction: column;
@@ -16,6 +17,7 @@
     &__title{
         display: flex;
         width:70%;
+        padding:10rem 0 ;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -32,6 +34,8 @@
 
         
          &__logo{
+             display: flex;
+             align-items: center;
             width: 55%;
             @include respond(phone){
                 width: 100%;
@@ -40,7 +44,9 @@
                 width: 85%;
              }
             img{
+                background-color: $color-general;
                 width: 6.5rem;
+                margin-right:2rem ;
                 @include respond(phone){
                     width: 4rem;
                  }
@@ -65,7 +71,7 @@
             h1{
                 line-height: 1.5;
                 color: #1a1a1a;
-                font-size: 4.4rem;
+                font-size: 3.5vh;
                 font-weight: 700;
                 letter-spacing: .2rem;
                 margin-bottom:3rem ;
@@ -84,7 +90,7 @@
             p{
                 color: #716f6f;
                 width: 100%;
-                font-size: 2.3rem;
+                font-size: 2.2vh;
                 word-spacing: .2rem;
                 line-height: 1.5;
 
@@ -96,7 +102,7 @@
                     font-size: 2rem;
                  }
                 span{
-                    color: orangered;
+                    color: $color-general;
                     font-weight: 700;
                 }
 
@@ -125,7 +131,7 @@
             a{
                 box-shadow: 0 .1rem 2rem rgba(0, 0, 0, 0.212);
                 text-decoration: none;
-                background-color: #fb651e;
+                background-color: $color-general;
                 border-radius: 6px;
                 color: #fff;
                 font-size: 2rem;
@@ -137,7 +143,7 @@
 
                 
                 &:hover{
-                    background-color: #da4804;
+                    background-color: rgb(248, 153, 11);
                 }
             }
         }
