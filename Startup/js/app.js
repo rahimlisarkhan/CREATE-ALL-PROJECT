@@ -1330,7 +1330,7 @@ let createCuriculum = (e) => {
 let display = () => {
 
 
-    courseName.innerHTML = 'Startap Məktəbi Tədris Planı';
+    courseName.innerHTML = 'Startap Akademiyası Tədris Planı';
     courseName.nextElementSibling.innerHTML = 'Bu, ən populyar tədris proqramımızın seçimidir.';
     sectionContent.innerHTML = teachers.map(el => `
     <div class="teacher-card">
