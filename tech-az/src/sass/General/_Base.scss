@@ -1,0 +1,42 @@
+* {
+    transition: all .3s;
+}
+
+html {
+    font-size: 62.5%; //1rem = 10px
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image:url("../../img/icons\ _\ graphics/Asset 1.png")
+    ,url("../../img/icons\ _\ graphics/Asset 2.png"),linear-gradient($color-black 65%,$color-black 20% ) ;
+    background-repeat: repeat-y, repeat-y;
+    background-position: left,right;
+    font-family: $fontRoboto;
+    
+}
+
+.active-nav{
+    color: rgb(255, 255, 255) !important;
+}
+
+.active-user{
+    color: rgb(243, 132, 6);
+}
+
+//Scroll bar
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background: $color-black;
+}
+
+::-webkit-scrollbar-thumb {
+    background:$color-blue;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
+}

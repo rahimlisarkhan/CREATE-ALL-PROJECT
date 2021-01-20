@@ -1,0 +1,15 @@
+//General
+@import'./General/Reset';
+@import './General/Variables';
+@import './General/Font';
+@import './General/Grid';
+@import './General/Base';
+@import './General/Mixin';
+
+//Pages
+@import './General/Header';
+@import './General/Navbar';
+@import './General/Footer';
+
+//Menu Page
+@import './HomePage/HomePage.scss';
