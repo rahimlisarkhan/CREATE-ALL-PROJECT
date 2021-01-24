@@ -5,12 +5,14 @@
     padding: 2rem;
     position: relative;
     align-items: center;
-    
-
+    @include respond(tab-port){
+        z-index: 9999999999999;
+     }
     .hamIcon{
         display: none;
         color: white;
      
+       
         @include respond(tab-port){
             display: block;
             font-size: 4rem;
@@ -61,16 +63,20 @@
             right: 0%;
             width: 100%;
             background-color: rgb(32, 32, 32);
-            z-index: 9999;
             padding: 4rem;
-            height: 85rem;
+            height: 80rem;
             align-items: center;
             flex-direction: column;
          }
          &__menu{
-            width: 70%;
+            width: 75%;
             display: flex;
             justify-content: space-evenly;
+            @include respond(tab-port){
+                align-items: center;
+                height: 75%;
+               flex-direction: column;
+             }
             &__item{
                 text-transform: lowercase;;
                 font-size: 2.5rem;
@@ -101,6 +107,10 @@
             align-items: center;
             width: 20%;
 
+            @include respond(tab-port){
+                width: 25%;
+             }
+            
             &__item{
                 text-decoration: none;
                 padding: .5rem 2.5rem ;
@@ -108,7 +118,11 @@
                 color:$color-blue;
                 border: .25rem solid $color-blue;
 
-
+                @include respond(phone){
+                    width: 20rem;
+                    font-size: 2rem;
+                    text-align: center;
+                 }
                 &:hover{
                     color:white;
                     border: .25rem solid white;

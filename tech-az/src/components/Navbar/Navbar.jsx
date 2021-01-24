@@ -25,7 +25,7 @@ const Navbar = () =>{
             <div className="navbar__list" ref={ref}>
                 <div className="navbar__list__menu" >
                     <a href='#1' className="navbar__list__menu__item" activeClassName="active-nav">Home</a>
-                    <a href='#6' className="navbar__list__menu__item"  activeClassName="active-nav">About us</a>
+                    {/* <a href='#6' className="navbar__list__menu__item"  activeClassName="active-nav">About us</a> */}
                     <a href='#2'  className="navbar__list__menu__item"  activeClassName="active-nav">Events</a>
                     <a href='#4' className="navbar__list__menu__item"  activeClassName="active-nav">Media</a>
 

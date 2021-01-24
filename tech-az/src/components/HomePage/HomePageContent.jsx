@@ -7,7 +7,7 @@ import InterPartners from './HomePageMenu/InterPartners'
 import LocalPartners from './HomePageMenu/LocalPartners'
 import Form from './HomePageMenu/Form'
 
-const HomePageContent = () =>{
+const HomePageContent = (props) =>{
     return(
         <section className="home-page-content" >
             <Events/>
@@ -16,7 +16,7 @@ const HomePageContent = () =>{
              <Corporate/> */}
             <InterPartners/>
             <LocalPartners/>
-            <Form/>
+            <Form data={props.data}/>
        </section>
     )
 

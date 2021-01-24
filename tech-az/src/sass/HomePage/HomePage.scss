@@ -12,6 +12,11 @@
         align-items: center;
         justify-content: space-between;
         background-color: $color-black;
+        @include respond(tab-port){
+           flex-direction: column-reverse;
+           align-items: center;
+        }
+
         .local-patern{
             align-items: flex-start;
             padding: 4rem;
@@ -29,8 +34,30 @@
             align-items: flex-end;
             flex-direction: column;
             padding: 4rem;
+            @include respond(tab-port){
+                width: 70%;
+                align-items: center !important;
+              }
+
+              
             img{
+                width: 15%;
+                height: 6rem !important;
                 margin: 4rem 0;
+                @include respond(phone){
+                    width: 15% !important;
+                    height: 3rem !important;
+                 }
+                @include respond(tab-port){
+                    font-size: 2rem;
+                    flex-direction: column;
+                    margin: 2rem;
+                    width: 15%;
+                    height: 3rem !important;
+                    transform: rotate(-90deg) !important;
+                    clip-path: none;
+                 }
+              
             }
             h1{ 
                 text-align: right;
@@ -46,8 +73,11 @@
                     color:$color-blue
                 }
                 @include respond(tab-land){
-                    font-size: 2.7rem;
+                    font-size: 3.5rem;
                 }
+                @include respond(tab-port){
+                    text-align: center !important;
+                  }
                 @include respond(phone){
                     font-size: 2rem;
                     text-align: center;
@@ -66,7 +96,13 @@
             justify-content: center;
             flex-wrap: wrap;
             background-color: $color-blue;
-
+            @include respond(tab-port){
+                padding: 1rem;
+            }
+            @include respond(phone){
+                width: 80%;
+            }
+            //lo
             //logo card
 
             .bg-none{
@@ -74,13 +110,14 @@
                 box-shadow: none;
                 margin: 4rem;
 
+               
                 &:hover{
                     box-shadow: none;
                 }
 
                 img{
                     width: 130%;
-
+                  
                     @include respond(phone){
                         width: 70%;
                     }
@@ -101,14 +138,15 @@
 
                 @include respond(tab-land){
                     width: 30%;
-                    height: 27rem !important;
+                    height: 13rem !important;
                  }
                  @include respond(tab-port){
                     width: 40%;
+                    height: 9rem !important;
                  }
                  @include respond(phone){
                     width:90%;
-                    height: 25rem !important;
+                    height: 15rem !important;
                 }
                 .card-link{ 
                     position: absolute;
@@ -128,9 +166,8 @@
                 img{
                     width: 85%;
                     height: auto;
-
                     @include respond(phone){
-                        width: 70%;
+                        width: 75%;
                     }
                 }
                 .bg-black{
@@ -163,10 +200,22 @@
     }
     .bg-dark{
         width: 100%;
-        clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
         padding: 10rem 4rem;
-        background-color: $color-black !important;
+        @include respond(phone){
+            padding: 10rem 1rem;
+        }
+        @include respond(tab-port){
+            font-size: 2rem;
+            flex-direction: column;
+            align-items: center;
+            margin: 2rem;
+            clip-path: none;
+         }
+         
     }
+
+
+
     //Corporate
     &__corporate{
         width: 100%;
@@ -180,6 +229,7 @@
         
         @include respond(tab-port){
             font-size: 2rem;
+            flex-direction: column;
             margin: 2rem;
             clip-path: none;
          }
@@ -188,14 +238,29 @@
         }
 
         &__desc{
-                  width: 30%;
+            width: 30%;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             padding: 4rem;
+          @include respond(phone){
+              align-items: center;
+             width: 90%;
+        }
             img{
+                width: 15% !important;
+                height: 6rem !important;
                 transform: rotate(-180deg);
                 margin: 4rem 0;
+
+                @include respond(tab-port){
+                    transform: rotate(-90deg);
+                }
+              
+                @include respond(phone){
+                   width: 17% !important;
+                   height: 3rem !important;
+              }
             }
             h1{ 
                 text-align: left;
@@ -211,11 +276,11 @@
                     color:$color-blue
                 }
                 @include respond(tab-land){
-                    font-size: 2.7rem;
+                    font-size: 3rem;
                 }
                 @include respond(phone){
                     font-size: 2rem;
-                    text-align: center;
+                    text-align: center !important;
                     line-height: 1.4;
                 }
             }
@@ -228,10 +293,11 @@
             font-size: 3rem;
             line-height: 1.4;
             @include respond(tab-land){
-                font-size: 2rem;
+                font-size: 1.8rem;
             }
 
             @include respond(tab-port){
+                width: 100%;
                 font-size: 1.6rem;
              
             }
@@ -251,18 +317,23 @@
                 font-weight: 400;
                 color: white;
                 text-align: left;
-                padding: 4rem;
-
+                padding: 2rem;
+                @include respond(tab-port){
+                    padding: 1rem;
+                    align-items: center;
+                    text-align: center;
+                }
 
                 img{
                     width: 25%;
+                  
                 }
 
                 p{
                     margin: 2rem;
 
-
                 }
+               
                 @include respond(phone){
                     width: 95%;
                 }
@@ -289,7 +360,13 @@
         @include respond(tab-land){
             height: 45rem;
         }
+        @include respond(tab-port){
+            width: 80%;
+         }
 
+         @include respond(phone){
+            width: 90%;
+        }
         h1{
             font-family: $fontAudio;
             color: $color-blue;
@@ -303,6 +380,10 @@
             @include respond(tab-land){
                 font-size: 4rem;
             }
+
+            @include respond(phone){
+                font-size: 3rem;
+            }
         }
 
 
@@ -315,9 +396,11 @@
             border:.2rem solid $color-blue;
             background-color: $color-black;
             margin: 1.5rem;
-
+            @include respond(tab-port){
+                width: 80%;
+             }
             @include respond(phone){
-                width: 90%;
+                width: 100%;
             }
             .icon{
                 color: $color-blue;
@@ -383,3 +466,56 @@
     }
 }
 
+
+.form-popup{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+    top: 0;
+    display: none;
+    left: 0;
+    z-index: -9999999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.808);
+
+
+    &__window{
+        width: 35%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+        background-color: white;
+        height: 25rem;
+        letter-spacing: .2rem;
+        line-height: 1.3;
+        box-shadow: 0 .1rem 2rem rgba($color-blue, .5);
+        text-align: center;
+        font-size: 3.5rem;
+
+        @include respond(tab-land){
+            font-size: 2.5rem;
+        }
+
+        @include respond(phone){
+            width: 90%;
+            height: 25rem;
+            font-size: 2.5rem;
+        }
+
+        .popup-close{
+            position: absolute;
+            top: 3%;
+            right: 2%;
+            cursor: pointer;
+            color: rgb(0, 51, 128);
+            &:hover{
+                transform: scale(1.1);
+                color: rgb(0, 0, 0);
+            }
+        }
+    }
+}

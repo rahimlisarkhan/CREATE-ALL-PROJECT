@@ -1,34 +1,76 @@
 import React  from 'react'
-import { FaUserAlt,FaMailBulk } from "react-icons/fa";
+import {FiUser,FiMail } from "react-icons/fi";
+import {AiOutlineCloseCircle } from "react-icons/ai";
 
 
 
-const Form = () => {
-    let name = React.createRef(),
-            surname = React.createRef(),
-            email = React.createRef();
-   let handleClick = (e) =>{
-        
-        let nameValue = name.target;
+const Form = (props) => {
 
-        // console.log(name.target.value)
-        // console.log(surname.target.value)
-        // console.log(email.target.value)
-        console.log(nameValue)
+    //Close
+    let handleClose = (e) =>{
+        e.target.parentElement.parentElement.style.display='none';
+        e.target.parentElement.parentElement.style.zIndex='-9999999';
+    }
+    //Form
+    let handleChangeInputName = (e) =>{
+
+        props.data.updateFormName(e.target.value)
+    }
+
+    let handleChangeInputSurname = (e) =>{
+
+
+        props.data.updateFormSurname(e.target.value)
+    }
+
+    let handleChangeInputMail = (e) =>{
+        props.data.updateFormMail(e.target.value)
+    }
+
+
+    let handleClick = (e) =>{
+        e.preventDefault();
+        let formPopup = e.target.parentElement.nextElementSibling
+
+        props.data.addForm(formPopup)
+     
    }
 
     return(
-        <div className="home-page-content__form" id='5'>
-            <h1>Join us</h1>
+        <>
+        <form className="home-page-content__form" id='5'>
+             <h1>Join us</h1>
              <div className="home-page-content__form__group">
-             <FaUserAlt className='icon' /> <input type='text' ref={name} placeholder=' name'/>
-             <input type='text' ref={surname} placeholder='surname'/>
+             <FiUser className='icon' /> <input type='text'
+                                                required onChange={(e)=>handleChangeInputName(e)}
+                                                placeholder=' name'
+                                                value={props.data.store.user.first_name}
+               />
+             <input type='text' required  
+                    placeholder='surname'  
+                    onChange={(e)=>handleChangeInputSurname(e)}
+                    value={props.data.store.user.last_name}
+             />
              </div>
              <div className="home-page-content__form__group">
-             <FaMailBulk className='icon'/> <input type='email' ref={email} placeholder='email'/>
+             <FiMail className='icon'/> <input  type='email' required  
+                                                onChange={(e)=>handleChangeInputMail(e)}
+                                                placeholder='email'
+                                                value={props.data.store.user.email}
+            />
              </div>
-             <button type='submit' onClick={(e)=>handleClick(e)} className="btn-join"> Join </button>
+             <input type='submit' onClick={(e)=>handleClick(e)} value='Join' className="btn-join"/>  
+        </form>
+
+
+        <div className='form-popup'>
+                <div className='form-popup__window'>
+                    <h1>Thank you for joining us! <br/>
+                        We will contact you shortly.. </h1>
+                        <AiOutlineCloseCircle onClick={(e)=>{handleClose(e)}} className='popup-close'/>
+                </div>
         </div>
+        </>
     )
 }
 

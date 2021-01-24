@@ -12,12 +12,13 @@ import Footer from './components/Footer/Footer';
 
 
 //APP
-let App = () => {
+let App = (props) => {
 
+  console.log(props)
   return (
     <section className="container">
          <Navbar />
-         <Route path="/" exact render={() =><HomePage/>}/>
+         <Route path="/" exact render={() =><HomePage data={props}/>}/>
          <Footer/>
       {/* <Header data={data.user} />
       <Navbar />

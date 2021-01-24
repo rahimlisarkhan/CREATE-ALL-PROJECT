@@ -17,20 +17,7 @@
         width: 45%;
         opacity: .1;
     }
-    .arrowIcon{
-        position: fixed;
-        right: 2%;
-        bottom: 10%;
-        z-index: 999999999999999;
-        font-size: 7rem;
-        color: white;
 
-
-        @include respond(phone){
-            font-size: 5rem;
-        }
-        
-    }
 
    
 

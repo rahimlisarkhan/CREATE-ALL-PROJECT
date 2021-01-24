@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.fee0478c.chunk.css",
-    "main.js": "/static/js/main.65d85e00.chunk.js",
-    "main.js.map": "/static/js/main.65d85e00.chunk.js.map",
+    "main.css": "/static/css/main.5f7a9ef8.chunk.css",
+    "main.js": "/static/js/main.e3b4fc67.chunk.js",
+    "main.js.map": "/static/js/main.e3b4fc67.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2506e135.js",
     "runtime-main.js.map": "/static/js/runtime-main.2506e135.js.map",
-    "static/js/2.c56d75d7.chunk.js": "/static/js/2.c56d75d7.chunk.js",
-    "static/js/2.c56d75d7.chunk.js.map": "/static/js/2.c56d75d7.chunk.js.map",
+    "static/js/2.14be751c.chunk.js": "/static/js/2.14be751c.chunk.js",
+    "static/js/2.14be751c.chunk.js.map": "/static/js/2.14be751c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.fee0478c.chunk.css.map": "/static/css/main.fee0478c.chunk.css.map",
-    "static/js/2.c56d75d7.chunk.js.LICENSE.txt": "/static/js/2.c56d75d7.chunk.js.LICENSE.txt",
-    "static/media/Artboard 1.6e73e9d0.png": "/static/media/Artboard 1.6e73e9d0.png",
-    "static/media/Artboard 2.67b9ccc7.png": "/static/media/Artboard 2.67b9ccc7.png",
-    "static/media/Devops.2c1037da.png": "/static/media/Devops.2c1037da.png",
+    "static/css/main.5f7a9ef8.chunk.css.map": "/static/css/main.5f7a9ef8.chunk.css.map",
+    "static/js/2.14be751c.chunk.js.LICENSE.txt": "/static/js/2.14be751c.chunk.js.LICENSE.txt",
+    "static/media/Artboard 1.6e2734e7.png": "/static/media/Artboard 1.6e2734e7.png",
+    "static/media/App.scss": "/static/media/Asset 2.26e8ca85.png",
     "static/media/Femtech(4) (1).b16c9e75.png": "/static/media/Femtech(4) (1).b16c9e75.png",
     "static/media/Game Tech Logo (1) (1).6cc54e3d.png": "/static/media/Game Tech Logo (1) (1).6cc54e3d.png",
     "static/media/NRYTN LOGO.1cdff580.png": "/static/media/NRYTN LOGO.1cdff580.png",
@@ -23,7 +22,6 @@
     "static/media/bank resp.b50ae8bf.png": "/static/media/bank resp.b50ae8bf.png",
     "static/media/berkley 1.f9c5f5ba.png": "/static/media/berkley 1.f9c5f5ba.png",
     "static/media/coca cola.54b1976a.png": "/static/media/coca cola.54b1976a.png",
-    "static/media/deeplearning.4e39076f.png": "/static/media/deeplearning.4e39076f.png",
     "static/media/esa.f9c85678.png": "/static/media/esa.f9c85678.png",
     "static/media/fuckup.13bf4d60.png": "/static/media/fuckup.13bf4d60.png",
     "static/media/garage48_logo.6b60e05d.png": "/static/media/garage48_logo.6b60e05d.png",
@@ -33,10 +31,8 @@
     "static/media/maestrologo.271f51ab.png": "/static/media/maestrologo.271f51ab.png",
     "static/media/nextsteplogo.9c238b2b.png": "/static/media/nextsteplogo.9c238b2b.png",
     "static/media/pashabank logo.41368b86.png": "/static/media/pashabank logo.41368b86.png",
-    "static/media/product .2412bf80.png": "/static/media/product .2412bf80.png",
     "static/media/silicon valley.48730f78.png": "/static/media/silicon valley.48730f78.png",
     "static/media/slack logo1.6e106f8f.png": "/static/media/slack logo1.6e106f8f.png",
-    "static/media/slack.6e106f8f.png": "/static/media/slack.6e106f8f.png",
     "static/media/socar aqs logo.6cf9d467.png": "/static/media/socar aqs logo.6cf9d467.png",
     "static/media/stanford.6b965c54.png": "/static/media/stanford.6b965c54.png",
     "static/media/startup_estonia.a5ea0659.png": "/static/media/startup_estonia.a5ea0659.png",
@@ -47,8 +43,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2506e135.js",
-    "static/js/2.c56d75d7.chunk.js",
-    "static/css/main.fee0478c.chunk.css",
-    "static/js/main.65d85e00.chunk.js"
+    "static/js/2.14be751c.chunk.js",
+    "static/css/main.5f7a9ef8.chunk.css",
+    "static/js/main.e3b4fc67.chunk.js"
   ]
 }

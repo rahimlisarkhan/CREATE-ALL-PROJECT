@@ -2,11 +2,11 @@ import React from 'react'
 import Header from '../Header/Header'
 import HomePageContent from './HomePageContent'
 
-const HomePage = () => {
+const HomePage = (props) => {
     return(
         <>
         <Header />
-        <HomePageContent/>
+        <HomePageContent data={props.data}/>
         </>
     )
 }

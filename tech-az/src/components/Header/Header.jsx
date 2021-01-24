@@ -12,14 +12,14 @@ const Header = () =>{
             <div className='header__desc' >
             <h1>everything is connected  with <span>tech.az</span> </h1>
             <p> a technology media and event platforms that  brings international experience and practice  to the local startup & technology ecosystem</p>
-            <a> <span>learn more</span> <IoIosArrowForward className='iconArrow'/> </a>
+            <a href=' https://www.facebook.com/www.tech.az'> <span>learn more</span> <IoIosArrowForward className='iconArrow'/> </a>
             </div>
             <div className='header__icons'>
                 <a href=' https://www.facebook.com/www.tech.az' target='blank'> <FaFacebookSquare className='icon'/></a>
                 <a href='https://www.linkedin.com/company/tech-az/' target='blank'>  <FaLinkedin className='icon'/></a>
                 <a href='https://twitter.com/Techaz5' target='blank'>  <FaTwitterSquare className='icon'/></a>
                 <a href='https://www.instagram.com/tech.azerbaijan/' target='blank'>  <FaInstagramSquare className='icon'/></a>
-                <a href='#' target='blank'>  <FaYoutubeSquare className='icon'/></a>
+                <a href='https://www.youtube.com/channel/UCp5hYFUzfP3_hw29S8dGlQg' target='blank'>  <FaYoutubeSquare className='icon'/></a>
             
             </div>
         
