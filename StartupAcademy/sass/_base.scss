@@ -1,0 +1,16 @@
+*{   transition: all .5s;}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body{
+    font-family: $font-1;
+    background-color: rgb(223, 230, 255);
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
