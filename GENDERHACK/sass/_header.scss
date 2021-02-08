@@ -122,7 +122,6 @@
     //SECOND LOGOS
     &__logo-box-1 {
         display: flex;
-     
         width: 95%;
         position: absolute;
         align-items: center;
@@ -136,7 +135,6 @@
         @include respond (phone){
             width: 95%;
             flex-wrap: wrap;
-           padding-bottom:2rem ;
            top: 4% !important;
         }
 
@@ -144,9 +142,8 @@
     }
     .logo-1{
         // filter:  brightness(0) invert(1);
-        width: 16rem ;
+        width: 10% ;
         height:auto !important;
-        margin-right:4rem ;
 
         @include respond (tab-land){
             width: 11rem !important;
@@ -173,13 +170,12 @@
 
     .logo-2 {
         // filter:  brightness(0) invert(1);
-        width: 28rem !important;
+        width: 15% !important;
         height:auto !important;
 
         @include respond (tab-land){
             width: 20rem !important;
             height:auto !important;
-            margin-right:1rem ;
         }
 
         @include respond (tab-port){
@@ -200,20 +196,17 @@
     }
     .logo-3 {
         // filter:  brightness(0) invert(1);
-        width: 28rem !important;
+        width: 17% !important;
         height:auto !important;
-        margin-right:4rem ;
 
         @include respond (tab-land){
             width: 20rem !important;
             height:auto !important;
-            margin-right:1rem ;
         }
 
         @include respond (tab-port){
             width: 17rem !important;
             height:auto;
-            margin-right:2rem ;
         }
 
         @include respond (phone){
@@ -231,12 +224,10 @@
         // filter:  brightness(0) invert(1);
         width: 22rem;
         height:auto;
-        margin-right:4rem ;
 
         @include respond (tab-land){
             width: 15rem !important;
             height:auto !important;
-            margin-right:1rem ;
         }
 
         @include respond (tab-port){
@@ -260,7 +251,7 @@
         // filter:  brightness(0) invert(1);
         width: 8%;
         height:auto;
-        margin-right:4rem ;
+        margin-right:2rem ;
 
         @include respond (tab-land){
             width: 7% ;
@@ -287,9 +278,8 @@
     }
     .logo-5 {
         // filter:  brightness(0) invert(1);
-        width: 24rem;
-        height:19rem;
-        margin-right:4rem ;
+        width: 15%;
+        height:auto;
 
         @include respond (tab-land){
             width: 15rem !important;
