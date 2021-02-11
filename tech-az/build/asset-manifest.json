@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f7a9ef8.chunk.css",
-    "main.js": "/static/js/main.e3b4fc67.chunk.js",
-    "main.js.map": "/static/js/main.e3b4fc67.chunk.js.map",
+    "main.css": "/static/css/main.5404e96c.chunk.css",
+    "main.js": "/static/js/main.91cfc5ed.chunk.js",
+    "main.js.map": "/static/js/main.91cfc5ed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2506e135.js",
     "runtime-main.js.map": "/static/js/runtime-main.2506e135.js.map",
     "static/js/2.14be751c.chunk.js": "/static/js/2.14be751c.chunk.js",
     "static/js/2.14be751c.chunk.js.map": "/static/js/2.14be751c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5f7a9ef8.chunk.css.map": "/static/css/main.5f7a9ef8.chunk.css.map",
+    "static/css/main.5404e96c.chunk.css.map": "/static/css/main.5404e96c.chunk.css.map",
     "static/js/2.14be751c.chunk.js.LICENSE.txt": "/static/js/2.14be751c.chunk.js.LICENSE.txt",
     "static/media/Artboard 1.6e2734e7.png": "/static/media/Artboard 1.6e2734e7.png",
     "static/media/App.scss": "/static/media/Asset 2.26e8ca85.png",
@@ -44,7 +44,7 @@
   "entrypoints": [
     "static/js/runtime-main.2506e135.js",
     "static/js/2.14be751c.chunk.js",
-    "static/css/main.5f7a9ef8.chunk.css",
-    "static/js/main.e3b4fc67.chunk.js"
+    "static/css/main.5404e96c.chunk.css",
+    "static/js/main.91cfc5ed.chunk.js"
   ]
 }

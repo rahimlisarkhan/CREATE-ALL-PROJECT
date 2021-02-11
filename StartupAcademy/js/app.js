@@ -1300,8 +1300,8 @@ Qaçılmaz çılğın startap həyatında özünü əldə saxlamaq da həmçinin
     },
 ]
 
-let sectionContent = document.querySelector('#content-section');
-let courseName = document.querySelector('#courseName');
+let sectionContent = document.querySelector('#content-section'),
+    courseName = document.querySelector('#courseName');
 
 
 let infoCourse = (id) => {
@@ -1329,9 +1329,8 @@ let createCuriculum = (e) => {
 //display page
 let display = () => {
 
-
     courseName.innerHTML = 'Startap Akademiyası Tədris Planı';
-    courseName.nextElementSibling.innerHTML = 'Bu, ən populyar tədris proqramımızın seçimidir.';
+    courseName.nextElementSibling.innerHTML = '';
     sectionContent.innerHTML = teachers.map(el => `
     <div class="teacher-card">
         <a class="course-link" onclick="infoCourse(${el.id})" href="#"></a>

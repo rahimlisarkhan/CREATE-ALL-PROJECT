@@ -144,7 +144,7 @@
         // filter:  brightness(0) invert(1);
         width: 10% ;
         height:auto !important;
-
+        margin-right:2rem ;
         @include respond (tab-land){
             width: 11rem !important;
             height:auto;

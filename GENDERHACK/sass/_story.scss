@@ -10,6 +10,8 @@
     font-size: $default-font-size;
     transform: skewX(-12deg);
  
+
+
     @include respond(tab-port) {
         width: 100%;
         padding: 4rem;
@@ -17,9 +19,9 @@
     }
     @include respond(phone) {
         height: 26rem;
-        transform: skewX(0);
+       transform: skewX(0);
     }
-
+   
     &__shape {
         width: 15rem;
         height: 15rem;
@@ -47,6 +49,7 @@
         }
     }
     &__img {
+        
         height: 100%;
         transform: translateX(0rem) scale(1.4);
         backface-visibility: hidden;

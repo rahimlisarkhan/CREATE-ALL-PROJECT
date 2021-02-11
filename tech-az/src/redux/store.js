@@ -51,7 +51,7 @@ export let addForm = (element) => {
        formData.append("last_name", store.user.last_name);
        formData.append("email", store.user.email);
     try{
-        fetch('http://admin.tech.az/api/auth/account/', {
+        fetch('https://admin.tech.az/api/auth/account/', {
             mode: 'no-cors',
             method: 'POST',
             headers: {
