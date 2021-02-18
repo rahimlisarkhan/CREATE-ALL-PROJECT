@@ -29,6 +29,7 @@
         width: 4.5%;
         height: 37rem;
         display: flex;
+        position: relative;
         align-items: center;
         flex-direction: column;
         box-shadow: 0 .1rem 2rem #00000059 ;
@@ -39,6 +40,14 @@
         z-index: 999999999;
         justify-content: space-evenly;
         font-size: 4.5rem;
+
+        .closeBtnSosial{
+            position: absolute;
+            font-size: 2rem;
+            top: 1%;
+            cursor: pointer;
+            right: 1.5%;
+        }
 
         @include respond(tab-land){
             width: 8%;
@@ -168,7 +177,7 @@
             background-color: $color-blue;
 
             &:hover{
-                background-color: rgb(2, 119, 173);
+                background-color:#76ac03;
             }
             .iconArrow{
                 font-weight: bold;

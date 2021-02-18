@@ -7,7 +7,7 @@ import './sass/App.scss';
 //Pages
 // import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
-import HomePage from './components/HomePage/HomePage';
+import HomePageContainer from './components/HomePage/HomePageContainer';
 import Footer from './components/Footer/Footer';
 
 
@@ -18,13 +18,8 @@ let App = (props) => {
   return (
     <section className="container">
          <Navbar />
-         <Route path="/" exact render={() =><HomePage data={props}/>}/>
+         <Route path="/" exact  component={HomePageContainer} />
          <Footer/>
-      {/* <Header data={data.user} />
-      <Navbar />
-      <Route path='/' exact render={()=><ProfilePage data={data}/>} />
-      <Route path='/messages'  render={()=><MessagesPage data={data.user}/>} /> */}
-
     </section>
   );
 }

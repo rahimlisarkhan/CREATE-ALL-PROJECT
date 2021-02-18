@@ -1,27 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
-import {store,subscriber, updateFormName,updateFormSurname,updateFormMail,addForm} from './redux/store';
+import { store } from './redux/redux-store';
 
 
 
-export const render = () =>{
-  return(
-    ReactDOM.render(
-      <BrowserRouter>
-      <App store={store}  updateFormName={updateFormName}
-        updateFormSurname={updateFormSurname}
-        updateFormMail={updateFormMail}
-        addForm={addForm} />
-      </BrowserRouter>,
-      document.getElementById('root')
-    )
-  )
-}
+ReactDOM.render(
+  <Provider store={store} >
+  <BrowserRouter>
+    <App/>
+  </BrowserRouter>
+  </Provider>,
+  document.getElementById('root')
+)
 
 
-render()
-
-subscriber(render)
 

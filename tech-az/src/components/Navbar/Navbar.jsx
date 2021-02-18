@@ -11,11 +11,6 @@ const Navbar = () =>{
         }else{
             ref.current.style.top='0%'
         }
-
-
-        // ref.current.style.right='0%'
-        // ref.current.style.display='none'
-        console.log(ref)         
     }
 
     return(
@@ -24,14 +19,14 @@ const Navbar = () =>{
 
             <div className="navbar__list" ref={ref}>
                 <div className="navbar__list__menu" >
-                    <a href='#1' className="navbar__list__menu__item" activeClassName="active-nav">Home</a>
-                    {/* <a href='#6' className="navbar__list__menu__item"  activeClassName="active-nav">About us</a> */}
-                    <a href='#2'  className="navbar__list__menu__item"  activeClassName="active-nav">Events</a>
-                    <a href='#4' className="navbar__list__menu__item"  activeClassName="active-nav">Media</a>
+                    <a href='#1' className="navbar__list__menu__item" >Home</a>
+                    <a href='#2'  className="navbar__list__menu__item"  >Events</a>
+                    <a href='#4' className="navbar__list__menu__item"  >Media</a>
+                    <a href='#6' className="navbar__list__menu__item"  >Team</a>
 
                 </div>
                 <div className="navbar__list__join" >
-                     <a href='#5' className="navbar__list__join__item"  activeClassName="active-nav">Join us</a>
+                     <a href='#5' className="navbar__list__join__item"  >Join us</a>
                 </div>
 
                 {/* <NavLink to='/' exact className="navbar__list__item" activeClassName="active-nav">Home</NavLink>

@@ -1,6 +1,9 @@
 * {
     transition: all .3s;
+    text-transform: lowercase;
 }
+
+
 
 html {
     font-size: 62.5%; //1rem = 10px
@@ -23,7 +26,31 @@ body {
 .active-user{
     color: rgb(243, 132, 6);
 }
+.bg-white{
+    @include respond(phone){
+        height: 100rem !important;
+        padding: 1rem 0  !important;
+    }
+    padding: 4rem 0  !important;
+    flex-wrap: wrap !important;
+    background-color: white !important;
+}
+.bg-green{
+    width: 25% !important;
+    height: auto !important;
+    background-color: $color-blue !important;
 
+    @include respond(phone){
+        width: 100% !important;
+    }
+}
+
+.d-flex-col{
+    @include respond(phone){
+        flex-direction: column-reverse !important;
+    }
+  
+}
 //Scroll bar
 ::-webkit-scrollbar {
     width: 1rem;
