@@ -20,10 +20,10 @@ const Header = () =>{
             {!editmode?
             <div className='header__icons'>
                 <AiOutlineClose className='closeBtnSosial' onClick={()=>setEditmode(!editmode)}/>
-                <a href=' https://www.facebook.com/www.tech.az' target='blank'> <FaFacebookSquare className='icon'/></a>
+                <a href=' https://www.facebook.com/techazmedia' target='blank'> <FaFacebookSquare className='icon'/></a>
                 <a href='https://www.linkedin.com/company/tech-az/' target='blank'>  <FaLinkedin className='icon'/></a>
                 <a href='https://twitter.com/Techaz5' target='blank'>  <FaTwitterSquare className='icon'/></a>
-                <a href='https://www.instagram.com/tech.azerbaijan/' target='blank'>  <FaInstagramSquare className='icon'/></a>
+                <a href='https://www.instagram.com/techazmedia/' target='blank'>  <FaInstagramSquare className='icon'/></a>
                 <a href='https://www.youtube.com/channel/UCp5hYFUzfP3_hw29S8dGlQg' target='blank'>  <FaYoutubeSquare className='icon'/></a>
             
             </div> :''}

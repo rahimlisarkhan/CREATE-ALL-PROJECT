@@ -28,11 +28,14 @@ body {
 }
 .bg-white{
     @include respond(phone){
+        width: 95% !important;
         height: 100rem !important;
-        padding: 1rem 0  !important;
+        padding: 0  !important;
+        flex-direction: column-reverse !important;
     }
     padding: 4rem 0  !important;
     flex-wrap: wrap !important;
+  
     background-color: white !important;
 }
 .bg-green{
@@ -41,7 +44,7 @@ body {
     background-color: $color-blue !important;
 
     @include respond(phone){
-        width: 100% !important;
+        width: 85% !important;
     }
 }
 

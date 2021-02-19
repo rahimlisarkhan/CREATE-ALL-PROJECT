@@ -8,8 +8,8 @@ import logo2 from '../../../img/team/İlgar Alirizayev Program menecer.png'
 import logo3 from '../../../img/team/Sanan abdullayev content manager.png'
 import logo6 from '../../../img/team/Tariyel aghazada managing director.png'
 
-const TeamMembers = () => {
 
+const TeamMembers = () => {
     return(
         <div id='6' className="home-page-content__events bg-dark d-flex-col">
          
@@ -38,7 +38,7 @@ const TeamMembers = () => {
 
                         <div className="teamcontent__desc">
                             <h1>ilgar <br/> Alirizayev</h1>
-                            <h3>Program menecer <br/> ilqar@tech.az </h3>
+                            <h3>Program manager <br/> ilqar@tech.az </h3>
                         </div>   
                         <div className="teamcontent__sosial">
                             <a href='https://www.facebook.com/ilgar.alirzayev ' target='blank'> <icon.FaFacebookSquare className='icon'/></a>
