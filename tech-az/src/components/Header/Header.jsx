@@ -9,9 +9,8 @@ import headerImg from '../../img/Artboard 1.png'
 
 const Header = () =>{
     const [editmode, setEditmode] = useState(false)
-    
     return(
-        <header className="header" id='1'>
+        <header className="header" >
             <div className='header__desc' >
             <h1>everything is connected  with <span>tech.az</span> </h1>
             <p> a technology media and event platforms that  brings international experience and practice  to the local startup & technology ecosystem</p>
@@ -29,8 +28,9 @@ const Header = () =>{
             
             </div> :''}
             <img src={headerImg} alt='Slogan' />
-
-            <a href='#1' className='arrowIcon'><FiChevronUp/> </a>
+            
+            
+            <a href='#7' className='arrowIcon'><FiChevronUp/> </a>
         </header>
     )
 }

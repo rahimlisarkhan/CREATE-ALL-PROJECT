@@ -3,10 +3,10 @@ import React from 'react'
 
 //icon
 import arrowIcon from'../../../img/icons _ graphics/Asset 11.png'
-import icon1 from'../../../img/icons _ graphics/Asset 5.png'
-import icon2 from'../../../img/icons _ graphics/Asset 6.png'
-import icon3 from'../../../img/icons _ graphics/Asset 7.png'
-import icon4 from'../../../img/icons _ graphics/Asset 8.png'
+import icon1 from'../../../img/icons _ graphics/Asset 6.png'
+import icon2 from'../../../img/icons _ graphics/Asset 7.png'
+import icon3 from'../../../img/icons _ graphics/Asset 8.png'
+import icon4 from'../../../img/icons _ graphics/Asset 9.png'
 const Media = ()=>{
 
     return (
