@@ -193,8 +193,8 @@ let teachers = [{
         fullname: 'Kevin Hale',
         video: 'https://www.youtube.com/embed/DOtCl5PU8F0',
         images: './server/img/2.png',
-        title: 'Startap İdeyaları necə dəyərləndirilməliyəm?',
-        desc: 'Bu dərsdə YC-dən Kevin Hale, fikirlərinizi necə cəmləyib və bir investora necə çatdıracağınızı araşdırır. Fikirlərinizi dəqiq və qısa şəkildə izləyicilərin diqqətini necə cəlb edəbilməniz barədə tövsiyələrini bölüşür.',
+        title: 'Startap İdeyalarını necə dəyərləndirək?',
+        desc: 'Deməli, bu, startap ideyalarının necə qiymətləndirməsi ilə bağlıdır. Və bu əslində son startap məktəbindən gördüyümüz bir çox rəy əsasında inkişaf etdirdiyimiz yeni bir kontentdir və gördüyümüz şey isə  bir çox insanların üzləşdiyi çətinliklərdir.',
         transcript: `
         <br>
         Deməli, bu, startap ideyalarının necə qiymətləndirməsi ilə bağlıdır. Və bu əslində son startap məktəbindən gördüyümüz bir çox rəy əsasında inkişaf etdirdiyimiz yeni bir kontentdir və gördüyümüz şey isə  bir çox insanların üzləşdiyi çətinliklərdir. Beləliklə, keçən ilki tədris proqramında həqiqətən startap məktəbinə qatılanların məlumatına baxdığımızda sonlanmış bir çox kontent var idi, bu çox daha inkişaf etmiş, daha da irəliləmişdir.  <br>  <br>
@@ -289,7 +289,7 @@ let teachers = [{
         fullname: 'Eric Migicovsky',
         video: 'https://www.youtube.com/embed/MT4Ig2uqjTc',
         images: './server/img/3.png',
-        title: 'İstifadəçilərlə necə danışmaq olar?',
+        title: 'İstifadəçilərlə necə danışılır?',
         desc: 'YC Partner Eric Migicovsky, istifadəçilərinizdən sual vermək və rəy toplamaq üçün bir çərçivə paylaşır.',
         transcript: `
         <br>
@@ -389,7 +389,7 @@ let teachers = [{
         fullname: 'Kevin Hale',
         video: 'https://www.youtube.com/embed/17XZGUX_9iM',
         images: './server/img/4.png',
-        title: 'Startıpınızı necə qurmaq olar?',
+        title: 'Startapınızı necə təqdim olunmalıdır?',
         desc: 'Bu dərsdə YC-dən Kevin Hale, fikirlərinizi necə cəmləyib və bir investora necə çatdıracağınızı araşdırır. Fikirlərinizi dəqiq və qısa şəkildə izləyicilərin diqqətini necə cəlb edəbilməniz barədə tövsiyələrini bölüşür.',
         transcript: `
         <br>  <br>
@@ -567,7 +567,7 @@ Nə edə bilərik, əgər biz üç nömrəlini ediriksə və bir nömrə ilə ba
         fullname: 'Michael Seibel',
         video: 'https://www.youtube.com/embed/1hHMwLxN6EM',
         images: './server/img/5.png',
-        title: 'MVP ( minimum tətbiq olunan məhsul )-ni necə planlaşdırmalıyam?',
+        title: 'MVP necə planlaşdırılır?',
         desc: 'YC CEO və Partnyor Michael Seibel, bir MVP yaratmaq və satışa başlamazdan əvvəl bir başlanğıc olaraq ilk istifadəçilərinizi qazanma yanaşmasını paylaşır.',
         transcript: `
         <br>
@@ -667,7 +667,7 @@ Nə edə bilərik, əgər biz üç nömrəlini ediriksə və bir nömrə ilə ba
         fullname: 'Adora Cheung',
         video: 'https://www.youtube.com/embed/XcCmMOWuAF4',
         images: './server/img/6.png',
-        title: 'MVP ( minimum tətbiq olunan məhsul )-ni necə planlaşdırmalıyam?',
+        title: 'Zamanın düzgün idarə edilməsi.',
         desc: 'YC tərəfdaşımız Adora Cheung, qurucuların vaxtlarından necə səmərəli istifadə edə biləcəyinə dair çərçivəsini bölüşür. O, tapşırıqların şirkətinizə təsirini necə ölçə biləcəyinizə əlavə olaraq vəzifələri müəyyənləşdirmək və prioritetləşdirmək yollarını əhatə edir.',
         transcript: `
         <br>  <br>
@@ -752,7 +752,7 @@ Nə edə bilərik, əgər biz üç nömrəlini ediriksə və bir nömrə ilə ba
         fullname: 'Kevin Hale',
         video: 'https://www.youtube.com/embed/30a5yFBd7Fo',
         images: './server/img/8.png',
-        title: 'Necə birlikdə işləmək olar?',
+        title: 'Birgə iş necə görülür?',
         desc: 'Partner Kevin Hale həmtəsisçilərlə uğurlu iş əlaqələrinin qurulmasının əhəmiyyətindən və komandanın güclü tərəflərini optimallaşdırmaq üçün lazımi prosesdən danışır.',
         transcript: `
         <br>  <br>
@@ -886,7 +886,7 @@ Nə edə bilərik, əgər biz üç nömrəlini ediriksə və bir nömrə ilə ba
         fullname: 'Michael Seibel',
         video: 'https://www.youtube.com/embed/9NhEBVPlJs4',
         images: './server/img/9.png',
-        title: 'Startup Fikirlərini necə əldə etmək olar?',
+        title: 'Həmtəsisçi Payı',
         desc: 'Təsisçilər tez-tez həmtəsisçiləri ilə bərabərliyi necə bölməli olduqlarını soruşurlar.',
         transcript: `
         <br>
@@ -934,7 +934,7 @@ Nə edə bilərik, əgər biz üç nömrəlini ediriksə və bir nömrə ilə ba
         fullname: 'Tim Brady',
         video: 'https://www.youtube.com/embed/qnNHW6TYv5I',
         images: './server/img/10.png',
-        title: 'Startup Fikirlərini necə əldə etmək olar?',
+        title: 'Startap mədəniyyətinin formalaşdırılması ',
         desc: 'YC Partner Tim Brady, güclü və əlaqəli bir mədəniyyət qurmağın vacibliyini  və startup üçün möhkəm bir zəmin yaratmağa kömək etmək üçün edə biləcəyiniz altı şeyi paylaşır.',
         transcript: `
         <br>  <br>
@@ -983,7 +983,7 @@ Nə edə bilərik, əgər biz üç nömrəlini ediriksə və bir nömrə ilə ba
         fullname: 'Ali Rowghani',
         video: 'https://www.youtube.com/embed/7HDO1p3VdYg',
         images: './server/img/11.png',
-        title: 'Necə rəhbərlik etmək olar?',
+        title: 'Rəhbərlik necə etmək olar?',
         desc: 'Uzunmüddətli dövrdə böyük bir şirkət qurmağı bacarmaq üçün qurucular böyük insanlara rəhbərlik etmə, motivasiya etmə və saxlama bacarığına sahib olmalıdırlar. YC Partner və YC Davamlılıq Fondunun baş icraçı direktoru Ali Rowghani, liderliklə bağlı üç müşahidəsini bölüşmək üçün böyük liderlərlə iş təcrübəsindən götürür.',
         transcript: `
         
@@ -1033,8 +1033,8 @@ Nə edə bilərik, əgər biz üç nömrəlini ediriksə və bir nömrə ilə ba
         fullname: 'Geof Ralston, Michael Seibel',
         video: null,
         images: './server/img/12.png',
-        title: 'Texniki həmtəsisçi necə tapılır?',
-        desc: 'Görünür ki, bir çox təsisçi istədiyi məhsulu yaratmaq üçün güclü texniki biliklərə sahib olmadığından və texniki həmtəsisçi tapa bilmədiyinə görə startapını başlada bilmir. Buna görə də, öz məsləhətlərimizi təklif etmək istəyirik. ',
+        title: 'YC-nin əsas startap  məsləhətləri',
+        desc: 'Birincisi, kifayət qədər texniki bilikləriniz varmı? Qurmaq istədiyiniz məhsul bundan çox asılıdır. Əgər xərçəngə qarşı dərman yaratmağa çalışırsızsa, biologiya sahəsində kifayət qədər bilikli olmalısız; amma iPhone üçün bir proqram hazırlamağa çalışırsızsa, ilk versiyanı yaratmaq üçün çox da dərin texniki biliklərə sahib olmaq məcburi deyil.  ',
         transcript: `
         <br>  <br>
         Birincisi, kifayət qədər texniki bilikləriniz varmı? Qurmaq istədiyiniz məhsul bundan çox asılıdır. Əgər xərçəngə qarşı dərman yaratmağa çalışırsızsa, biologiya sahəsində kifayət qədər bilikli olmalısız; amma iPhone üçün bir proqram hazırlamağa çalışırsızsa, ilk versiyanı yaratmaq üçün çox da dərin texniki biliklərə sahib olmaq məcburi deyil. 
@@ -1054,7 +1054,7 @@ Nə edə bilərik, əgər biz üç nömrəlini ediriksə və bir nömrə ilə ba
         video: null,
         images: './server/img/13.png',
         title: 'Texniki həmtəsisçi',
-        desc: 'Startaplara verdiyimiz məsləhətlərin çoxu taktikidir; gündəlik və ya həftəlik fəaliyyət üçün nəzərdə tutulub. Lakin, bəzi məsləhətlər daha fundamentaldır.',
+        desc: 'Burada topladığımız məsləhətlər YC komandası tərəfindən startaplar üçün daha vacib və daha dəyişdirici kimi dəyərləndirilir. Sağlam düşüncə və ya intuisiyaya zidd səslənməsinə baxmayaraq, aşağıda verilmiş məsləhətlər bir çox startapa öz uğur yolunu tapmağa kömək edəcək.',
         transcript: `
         <br>
 	Burada topladığımız məsləhətlər YC komandası tərəfindən startaplar üçün daha vacib və daha dəyişdirici kimi dəyərləndirilir. Sağlam düşüncə və ya intuisiyaya zidd səslənməsinə baxmayaraq, aşağıda verilmiş məsləhətlər bir çox startapa öz uğur yolunu tapmağa kömək edəcək. 
@@ -1109,7 +1109,7 @@ Qaçılmaz çılğın startap həyatında özünü əldə saxlamaq da həmçinin
         fullname: 'Jared Friedman,Craig Cannon',
         video: null,
         images: './server/img/14.png',
-        title: 'YC namizədlərindən tez-tez verilən suallar.',
+        title: 'YC-yə müraciət edənlərin tez-tez verilən suallar.',
         desc: `YC’nin üç ayını Mountain View’da keçirmək məcburiyyətindəsiniz?
         Xeyr. Keçmişdə bu çətin bir tələb idi, lakin o zamandan bəri onu yeniləmişik.
         Airbnb partiyanın çox hissəsini işlərinin başladığı NYC da keçirdi. Onlar hər həftə iş saatları və həftəlik şam yeməyi üçün Kaliforniyaya uçurdular`,
@@ -1189,7 +1189,7 @@ Qaçılmaz çılğın startap həyatında özünü əldə saxlamaq da həmçinin
         fullname: 'Dalton Caldwell',
         video: 'https://www.youtube.com/embed/8yiOcCPvyNE',
         images: './server/img/15.png',
-        title: 'Y Kombinatorunda necə müraciət etmək və uğur qazanmaq olar?',
+        title: 'Y Kombinator-a necə müraciət edib müvəffəq olunur.',
         desc: `YC Partner Dalton Colduell, YC qəbul Komissiyasının necə işlədiyini və YC-nin uğurlu təcrübəsinə kömək   etdiyinə dair bir fikir verir.
         İzləyin, Əgər:
             • siz YC-də müraciət etməkdə maraqlısınızsa;
@@ -1275,7 +1275,7 @@ Qaçılmaz çılğın startap həyatında özünü əldə saxlamaq da həmçinin
         fullname: 'Geof Ralston',
         video: 'https://www.youtube.com/embed/s8ER6DIlAvY',
         images: './server/img/16.png',
-        title: 'Startup Fikirlərini necə əldə etmək olar?',
+        title: 'Hissədarlıq məsləhətləri',
         desc: 'YC Partner Jared Friedman, başlanğıc fikirlərini əldə etmək üçün məsləhətlər verir. Bu video, Startup School 2020-nin gələcək qurma yolu üçün qeyd edildi.',
         transcript: `
         <br><br><br>
