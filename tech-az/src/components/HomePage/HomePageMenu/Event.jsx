@@ -24,32 +24,32 @@ const Events = () => {
                     <img src={logo6} alt='brands'/>
                 </div>
                 <div className="home-page-content__events__logos__card bg-none">
-                <a href='https://www.techstars.com' target='blank' className='card-link'> </a>
+                <a href='https://www.startupgrind.com/' target='blank' className='card-link'> </a>
                     <img  src={logo5}  alt='brands'/>
                 </div>
                 <div className="home-page-content__events__logos__card bg-none">
-                <a href='https://www.startupgrind.com/' target='blank' className='card-link'> </a>
+                <a href='https://www.techstars.com' target='blank' className='card-link'> </a>
                     <img src={logo7} alt='brands'/>
                 </div>
                 <div className="home-page-content__events__logos__card bg-none">
-                <a href='https://www.producthunt.com' target='blank' className='card-link'> </a>
+                <a href='https://www.fuckupnights.com' target='blank' className='card-link'> </a>
                     <img src={logo3}  alt='brands'/>
                 </div>
                 <div className="home-page-content__events__logos__card bg-none">
-                <a href='https://www.deeplearning.ai/' target='blank' className='card-link'> </a>
+                <a href='https://devopsdays.org' target='blank' className='card-link'> </a>
                     <img src={logo2} alt='brands'/>
                 </div>
                 <div className="home-page-content__events__logos__card bg-none">
-                <a href='https://devopsdays.org' target='blank' className='card-link'> </a>
+                <a href='https://euroasianstartupawards.com' target='blank' className='card-link'> </a>
                     <img src={logo8} alt='brands'/>
                 </div>
                 <div className="home-page-content__events__logos__card bg-none">
-                  <a href='https://www.fuckupnights.com' target='blank' className='card-link'> </a>
+                  <a href='https://www.producthunt.com' target='blank' className='card-link'> </a>
                     <img src={logo9} alt='brands'/>
                   
                 </div>
                 <div className="home-page-content__events__logos__card bg-none">
-                 <a href='ttps://euroasianstartupawards.com' target='blank' className='card-link'> </a>
+                 <a href='https://www.deeplearning.ai/' target='blank' className='card-link'> </a>
                     <img src={logo1} alt='brands'/>
                 </div>
             </div>

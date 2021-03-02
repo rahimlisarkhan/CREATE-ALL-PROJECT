@@ -37,13 +37,13 @@ const TeamMembers = () => {
                     <div className='teamcontent'>
 
                         <div className="teamcontent__desc">
-                            <h1>ilgar <br/> Alirizayev</h1>
+                            <h1>ılgar <br/> Alirizayev</h1>
                             <h3>Program manager <br/> ilqar@tech.az </h3>
                         </div>   
                         <div className="teamcontent__sosial">
                             <a href='https://www.facebook.com/ilgar.alirzayev ' target='blank'> <icon.FaFacebookSquare className='icon'/></a>
                             <a href='https://www.linkedin.com/in/igorthenomad/ ' target='blank'>  <icon.FaLinkedin className='icon'/></a>
-                            <a href='https://www.instagram.com/igorthenomad/ / ' target='blank'>  <icon.FaInstagramSquare className='icon'/></a>
+                            <a href='https://www.instagram.com/igorthenomad/' target='blank'>  <icon.FaInstagramSquare className='icon'/></a>
                         </div>
                       
                     </div>
